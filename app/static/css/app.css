@@ -1,3 +1,33 @@
 body {
     padding-top: 5rem;
 }
+
+label{
+    font-weight: bold;
+}
+
+.send-btn{
+    background-color: rgb(99, 99, 238);
+    color: white;
+    cursor: pointer;
+    margin: 15px auto;
+    border: none;
+    padding: 7px 40px;    
+}
+
+.flashes{
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+}
+
+.success{
+    color: rgb(26, 180, 26);
+    font-weight: bold;   
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
+
